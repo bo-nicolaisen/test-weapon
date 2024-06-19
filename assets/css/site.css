@@ -1,0 +1,15 @@
+/* cookie consent med animation  */
+
+.cookieBlocker {
+  position: fixed;
+  top: 200vh;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(100, 100, 100, 0.5);
+  transition: 500ms; /* til animation */
+}
+
+.cookieBlockerIn {
+  top: 0px; /* til animation flytter position så der triggers en transition*/
+}
